@@ -43,11 +43,11 @@
       "artifactName": "BlockHub-linux.${ext}"
     },
     "extraResources": [
-      {
-        "from": "mod",
-        "to": "mod"
-      }
-    ],
+  {
+    "from": "client-mod",
+    "to": "mod"
+  }
+],
     "nsis": {
       "artifactName": "BlockHub-Setup.${ext}",
       "oneClick": true,
